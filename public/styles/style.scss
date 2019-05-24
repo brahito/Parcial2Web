@@ -26,3 +26,15 @@ justify-content: center;
         }
     }
 }
+.tabla{
+    display: flex;
+align-items: center;
+justify-content: center;
+    font-family: 'Mandali', sans-serif;
+    &__titulo{
+        background: gray;
+    }
+    &__izquierda{
+        width: 200px;
+    }
+}
