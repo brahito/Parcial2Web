@@ -36,7 +36,6 @@ app.get('/inicio', function (request, response) {
     collection.insertOne(visita, function(err){
         assert.equal(err, null);
 
-        console.log('pedido guardado');
     });
     response.render('inicio');
 });
@@ -52,7 +51,6 @@ app.get('/sobre', function (request, response) {
     collection.insertOne(visita, function(err){
         assert.equal(err, null);
 
-        console.log('pedido guardado');
     });
     response.render('sobre');
 });
@@ -68,7 +66,6 @@ app.get('/contacto', function (request, response) {
     collection.insertOne(visita, function(err){
         assert.equal(err, null);
 
-        console.log('pedido guardado');
     });    response.render('contacto');
 });
 
