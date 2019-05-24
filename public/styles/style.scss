@@ -1,0 +1,28 @@
+.titulo{
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+}
+.texto{
+    margin: 0 90px;
+    text-align: center;
+    font-family: 'Mandali', sans-serif;
+    line-height: 20px;
+}
+.botones{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.boton{
+   margin: 20px 20px;
+    & a{
+        text-decoration: none;
+        color: gray;
+        font-family: 'Mandali', sans-serif;
+        font-size: 20px;
+      
+        &:hover{
+            color:black;
+        }
+    }
+}

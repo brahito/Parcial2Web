@@ -1,0 +1,39 @@
+.titulo {
+  text-align: center;
+  font-family: 'Mandali', sans-serif;
+}
+
+.texto {
+  margin: 0 90px;
+  text-align: center;
+  font-family: 'Mandali', sans-serif;
+  line-height: 20px;
+}
+
+.botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.boton {
+  margin: 20px 20px;
+}
+
+.boton a {
+  text-decoration: none;
+  color: gray;
+  font-family: 'Mandali', sans-serif;
+  font-size: 20px;
+}
+
+.boton a:hover {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
